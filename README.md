@@ -1,0 +1,1 @@
+# playboardgamejp.github.io
