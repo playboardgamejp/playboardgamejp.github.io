@@ -1,11 +1,13 @@
-h1 a, h2 a{
+h1 a{
 	color: #c25100;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Righteous', cursive;
     font-style: normal;
 }
 
 body {
     padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 60px;
 }
 
 
@@ -26,8 +28,47 @@ body {
    
 }
 
-h1, h2, h3, h4 {
+
+  table{
+    width: 100%;
+    border-collapse:collapse;
+    margin:0 auto;
+    text-align: center;
+    background-color: white;
+  }
+  td,th{
+    width: 50%;
+    padding:10px;
+    font-size: 20pt;
+    font-weight: 900;
+  }
+ 
+  table tr:nth-child(odd){
+    background-color:darkgray;
+  }
+  table tr:nth-child(even){
+    background-color:white;
+  }
+  th{
+    background-color: darkgray; 
+  }
+  td{
+    border-bottom:2px solid darkgray;
+  }
+
+.table-scroll{
+    overflow-x : auto
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 36pt;
+    font-style: normal !important;
+}
+h2{
     font-family: 'Fredoka One', cursive;
+    font-size: 24pt;
+    font-style: normal !important;
 }
 
 .date {
@@ -47,7 +88,6 @@ h1, h2, h3, h4 {
     float: right;
     font-size: 26pt;
     margin-right: 20px;
-    font-family: 'Fredoka One', cursive;
 }
 
 .post {
@@ -56,4 +96,32 @@ h1, h2, h3, h4 {
 
 .post h2 a, .post h2 a:visited {
     color: #000000;
+}
+
+.mybg_red{
+    background-color: #e97d40;
+}
+.my_red{
+    color: #e97d40;
+}
+
+
+.mybg_green{
+    background-color: #86c422;
+}
+.my_green{
+    color: #86c422;
+}
+
+.mybg_orange{
+    background-color: #f3aa04;
+}
+.my_orange{
+    color: #f3aa04;
+}
+.mybg_blue{
+    background-color: #01aab9;
+}
+.my_blue{
+    color: #01aab9;
 }
